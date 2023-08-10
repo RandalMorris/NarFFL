@@ -9,7 +9,7 @@
 load(file = paste0(getwd(), "/data/NarFFL_Data_Load.rdata"))
 
 #Set Variables
-Fantasy_Year = 2021 #Set to Older year to test
+#Fantasy_Year = 2020 #Set to Older year to test
 
 #Get current season player score totals
 player_list = ffscrapr::fleaflicker_players(
