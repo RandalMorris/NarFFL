@@ -9,7 +9,7 @@
 load(file = paste0(getwd(), "/data/NarFFL_Data_Load.rdata"))
 
 #Set Variables
-Fantasy_Year = 2022 #Set to Older year to test
+Fantasy_Year = 2021 #Set to Older year to test
 
 #Get current season player score totals
 player_list = ffscrapr::fleaflicker_players(
@@ -40,8 +40,8 @@ for (x in 1:nrow(NarFFL_leagues)){
   rm(franchises_tmp, rosters_tmp,standings_tmp,  starters_tmp, transactions_tmp, conn)
 }
 end_time <- Sys.time()
-Duration = paste0("Execution Time: ", round(end_time - start_time,2), " Minutes")
+Duration = paste0("Execution Time: ", round(end_time - start_time,2), " Hours")
 rm(x, end_time, start_time)
 
-save.image(file = paste0(getwd(), "/data/NarFFL_Data_2022.rdata"))
+save.image(file = paste0(getwd(), "/data/NarFFL_Data_",Fantasy_Year,".rdata"))
 
