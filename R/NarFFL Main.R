@@ -26,7 +26,7 @@ for (x in 1:nrow(NarFFL_leagues)){
   cat(paste0("Working League ", NarFFL_leagues$name[x]))
   cat("",sep = "\n")
 
-  franchises_tmp = ffscrapr:::ff_franchises.flea_conn2(conn)
+  franchises_tmp = ffscrapr::ff_franchises(conn)
   rosters_tmp = ffscrapr::ff_rosters(conn, week = week)
   schedule_tmp = ffscrapr::ff_schedule(conn)
   standings_tmp = ffscrapr::ff_standings(conn)
