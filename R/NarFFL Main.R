@@ -1,15 +1,16 @@
 ### Main NarFFL ###
 
 #Load Packages
-#remotes::install_github("ffverse/ffscrapr")
-#remotes::install_github("RandalMorris/ffscrapr", ref = "Flea_Add")
+install.packages("ffscrapr", repos = c("https://ffverse.r-universe.dev", getOption("repos")))
+#remotes::install_github("RandalMorris/ffscrapr")
 
 #Load Functions and Data
 # source("functions.R")
 load(file = paste0(getwd(), "/data/NarFFL_Data_Load.rdata"))
 
 #Set Variables
-#Fantasy_Year = 2020 #Set to Older year to test
+#Fantasy_Year = 2022 #Set to Older year to test
+#week = 1
 
 #Get current season player score totals
 player_list = ffscrapr::fleaflicker_players(
@@ -26,18 +27,20 @@ for (x in 1:nrow(NarFFL_leagues)){
   cat("",sep = "\n")
 
   franchises_tmp = ffscrapr:::ff_franchises.flea_conn2(conn)
-  rosters_tmp = ffscrapr::ff_rosters(conn)
+  rosters_tmp = ffscrapr::ff_rosters(conn, week = week)
+  schedule_tmp = ffscrapr::ff_schedule(conn)
   standings_tmp = ffscrapr::ff_standings(conn)
-  starters_tmp = ffscrapr::ff_starters(conn)
+  starters_tmp = ffscrapr:::ff_starters(conn, week = week)
   transactions_tmp = ffscrapr::ff_transactions(conn)
   
   franchises = rbind(franchises, franchises_tmp)
   rosters = rbind(rosters, rosters_tmp)
+  schedule = rbind(schedule, schedule_tmp)
   standings = rbind(standings, standings_tmp)
   starters = rbind(starters, starters_tmp)
   transactions = rbind(transactions, transactions_tmp)
   
-  rm(franchises_tmp, rosters_tmp,standings_tmp,  starters_tmp, transactions_tmp, conn)
+  rm(franchises_tmp, rosters_tmp,standings_tmp,  starters_tmp, transactions_tmp, i, conn)
 }
 end_time <- Sys.time()
 Duration = paste0("Execution Time: ", round(end_time - start_time,2), " Hours")
