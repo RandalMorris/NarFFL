@@ -1,0 +1,176 @@
+"","pos","event","abbrev","points","label","desc","event_id"
+"1","QB","Passing Yard","Yd",0.04,"Passing","1 point for every 25 Passing Yards (0.04 per)",3
+"2","RB","Passing Yard","Yd",0.04,"Passing","1 point for every 25 Passing Yards (0.04 per)",3
+"3","WR","Passing Yard","Yd",0.04,"Passing","1 point for every 25 Passing Yards (0.04 per)",3
+"4","TE","Passing Yard","Yd",0.04,"Passing","1 point for every 25 Passing Yards (0.04 per)",3
+"5","K","Passing Yard","Yd",0.04,"Passing","1 point for every 25 Passing Yards (0.04 per)",3
+"6","QB","Passing TD","TD",4,"Passing","4 points for every Passing TD",5
+"7","RB","Passing TD","TD",4,"Passing","4 points for every Passing TD",5
+"8","WR","Passing TD","TD",4,"Passing","4 points for every Passing TD",5
+"9","TE","Passing TD","TD",4,"Passing","4 points for every Passing TD",5
+"10","K","Passing TD","TD",4,"Passing","4 points for every Passing TD",5
+"11","QB","2 Pt Conversion Passing","2PC",2,"Passing","2 points for every 2 Pt Conversion Passing",4
+"12","RB","2 Pt Conversion Passing","2PC",2,"Passing","2 points for every 2 Pt Conversion Passing",4
+"13","WR","2 Pt Conversion Passing","2PC",2,"Passing","2 points for every 2 Pt Conversion Passing",4
+"14","TE","2 Pt Conversion Passing","2PC",2,"Passing","2 points for every 2 Pt Conversion Passing",4
+"15","K","2 Pt Conversion Passing","2PC",2,"Passing","2 points for every 2 Pt Conversion Passing",4
+"16","QB","Interception","INT",-2,"Passing","-2 points for every Interception",7
+"17","RB","Interception","INT",-2,"Passing","-2 points for every Interception",7
+"18","WR","Interception","INT",-2,"Passing","-2 points for every Interception",7
+"19","TE","Interception","INT",-2,"Passing","-2 points for every Interception",7
+"20","K","Interception","INT",-2,"Passing","-2 points for every Interception",7
+"21","QB","Rushing Yard","Yd",0.1,"Rushing","1 point for every 10 Rushing Yards (0.1 per)",22
+"22","RB","Rushing Yard","Yd",0.1,"Rushing","1 point for every 10 Rushing Yards (0.1 per)",22
+"23","WR","Rushing Yard","Yd",0.1,"Rushing","1 point for every 10 Rushing Yards (0.1 per)",22
+"24","TE","Rushing Yard","Yd",0.1,"Rushing","1 point for every 10 Rushing Yards (0.1 per)",22
+"25","K","Rushing Yard","Yd",0.1,"Rushing","1 point for every 10 Rushing Yards (0.1 per)",22
+"26","QB","2 Pt Conversion Rushing","2PC",2,"Rushing","2 points for every 2 Pt Conversion Rushing",23
+"27","RB","2 Pt Conversion Rushing","2PC",2,"Rushing","2 points for every 2 Pt Conversion Rushing",23
+"28","WR","2 Pt Conversion Rushing","2PC",2,"Rushing","2 points for every 2 Pt Conversion Rushing",23
+"29","TE","2 Pt Conversion Rushing","2PC",2,"Rushing","2 points for every 2 Pt Conversion Rushing",23
+"30","K","2 Pt Conversion Rushing","2PC",2,"Rushing","2 points for every 2 Pt Conversion Rushing",23
+"31","QB","Rushing TD","TD",6,"Rushing","6 points for every Rushing TD",24
+"32","RB","Rushing TD","TD",6,"Rushing","6 points for every Rushing TD",24
+"33","WR","Rushing TD","TD",6,"Rushing","6 points for every Rushing TD",24
+"34","TE","Rushing TD","TD",6,"Rushing","6 points for every Rushing TD",24
+"35","K","Rushing TD","TD",6,"Rushing","6 points for every Rushing TD",24
+"36","QB","Catch","Rec",1,"Receiving","1 point for every Catch",41
+"37","RB","Catch","Rec",1,"Receiving","1 point for every Catch",41
+"38","WR","Catch","Rec",1,"Receiving","1 point for every Catch",41
+"39","TE","Catch","Rec",1,"Receiving","1 point for every Catch",41
+"40","K","Catch","Rec",1,"Receiving","1 point for every Catch",41
+"41","QB","Receiving Yard","Yd",0.1,"Receiving","1 point for every 10 Receiving Yards (0.1 per)",42
+"42","RB","Receiving Yard","Yd",0.1,"Receiving","1 point for every 10 Receiving Yards (0.1 per)",42
+"43","WR","Receiving Yard","Yd",0.1,"Receiving","1 point for every 10 Receiving Yards (0.1 per)",42
+"44","TE","Receiving Yard","Yd",0.1,"Receiving","1 point for every 10 Receiving Yards (0.1 per)",42
+"45","K","Receiving Yard","Yd",0.1,"Receiving","1 point for every 10 Receiving Yards (0.1 per)",42
+"46","QB","2 Pt Conversion Receiving","2PC",2,"Receiving","2 points for every 2 Pt Conversion Receiving",43
+"47","RB","2 Pt Conversion Receiving","2PC",2,"Receiving","2 points for every 2 Pt Conversion Receiving",43
+"48","WR","2 Pt Conversion Receiving","2PC",2,"Receiving","2 points for every 2 Pt Conversion Receiving",43
+"49","TE","2 Pt Conversion Receiving","2PC",2,"Receiving","2 points for every 2 Pt Conversion Receiving",43
+"50","K","2 Pt Conversion Receiving","2PC",2,"Receiving","2 points for every 2 Pt Conversion Receiving",43
+"51","QB","Receiving TD","TD",6,"Receiving","6 points for every Receiving TD",44
+"52","RB","Receiving TD","TD",6,"Receiving","6 points for every Receiving TD",44
+"53","WR","Receiving TD","TD",6,"Receiving","6 points for every Receiving TD",44
+"54","TE","Receiving TD","TD",6,"Receiving","6 points for every Receiving TD",44
+"55","K","Receiving TD","TD",6,"Receiving","6 points for every Receiving TD",44
+"56","QB","Fumble Lost","Lost",-2,"Misc","-2 points for every Fumble Lost",27
+"57","RB","Fumble Lost","Lost",-2,"Misc","-2 points for every Fumble Lost",27
+"58","WR","Fumble Lost","Lost",-2,"Misc","-2 points for every Fumble Lost",27
+"59","TE","Fumble Lost","Lost",-2,"Misc","-2 points for every Fumble Lost",27
+"60","K","Fumble Lost","Lost",-2,"Misc","-2 points for every Fumble Lost",27
+"61","QB","Offensive Fumble Recovery TD","TD",6,"Misc","6 points for every Offensive Fumble Recovery TD",118
+"62","RB","Offensive Fumble Recovery TD","TD",6,"Misc","6 points for every Offensive Fumble Recovery TD",118
+"63","WR","Offensive Fumble Recovery TD","TD",6,"Misc","6 points for every Offensive Fumble Recovery TD",118
+"64","TE","Offensive Fumble Recovery TD","TD",6,"Misc","6 points for every Offensive Fumble Recovery TD",118
+"65","K","Offensive Fumble Recovery TD","TD",6,"Misc","6 points for every Offensive Fumble Recovery TD",118
+"66","QB","Field Goal Made","FG",3,"Kicking","3 points for every Field Goal Made",101
+"67","RB","Field Goal Made","FG",3,"Kicking","3 points for every Field Goal Made",101
+"68","WR","Field Goal Made","FG",3,"Kicking","3 points for every Field Goal Made",101
+"69","TE","Field Goal Made","FG",3,"Kicking","3 points for every Field Goal Made",101
+"70","K","Field Goal Made","FG",3,"Kicking","3 points for every Field Goal Made",101
+"71","QB","Field Goal Made","FY",0.1,"Kicking","1 point for every 10 yards covered by a Field Goal Made after yard 30 (0.1 per)",102
+"72","RB","Field Goal Made","FY",0.1,"Kicking","1 point for every 10 yards covered by a Field Goal Made after yard 30 (0.1 per)",102
+"73","WR","Field Goal Made","FY",0.1,"Kicking","1 point for every 10 yards covered by a Field Goal Made after yard 30 (0.1 per)",102
+"74","TE","Field Goal Made","FY",0.1,"Kicking","1 point for every 10 yards covered by a Field Goal Made after yard 30 (0.1 per)",102
+"75","K","Field Goal Made","FY",0.1,"Kicking","1 point for every 10 yards covered by a Field Goal Made after yard 30 (0.1 per)",102
+"76","QB","Field Goal Missed","FM",-1,"Kicking","-1 point for every Field Goal Missed",103
+"77","RB","Field Goal Missed","FM",-1,"Kicking","-1 point for every Field Goal Missed",103
+"78","WR","Field Goal Missed","FM",-1,"Kicking","-1 point for every Field Goal Missed",103
+"79","TE","Field Goal Missed","FM",-1,"Kicking","-1 point for every Field Goal Missed",103
+"80","K","Field Goal Missed","FM",-1,"Kicking","-1 point for every Field Goal Missed",103
+"81","QB","XP","XP",1,"Kicking","1 point for every XP",104
+"82","RB","XP","XP",1,"Kicking","1 point for every XP",104
+"83","WR","XP","XP",1,"Kicking","1 point for every XP",104
+"84","TE","XP","XP",1,"Kicking","1 point for every XP",104
+"85","K","XP","XP",1,"Kicking","1 point for every XP",104
+"86","QB","XP Missed","XM",-1,"Kicking","-1 point for every XP Missed",105
+"87","RB","XP Missed","XM",-1,"Kicking","-1 point for every XP Missed",105
+"88","WR","XP Missed","XM",-1,"Kicking","-1 point for every XP Missed",105
+"89","TE","XP Missed","XM",-1,"Kicking","-1 point for every XP Missed",105
+"90","K","XP Missed","XM",-1,"Kicking","-1 point for every XP Missed",105
+"91","QB","Kick Return TD","TD",6,"Returning","6 points for every Kick Return TD",63
+"92","RB","Kick Return TD","TD",6,"Returning","6 points for every Kick Return TD",63
+"93","WR","Kick Return TD","TD",6,"Returning","6 points for every Kick Return TD",63
+"94","TE","Kick Return TD","TD",6,"Returning","6 points for every Kick Return TD",63
+"95","K","Kick Return TD","TD",6,"Returning","6 points for every Kick Return TD",63
+"96","D/ST","Kick Return TD","TD",6,"Returning","6 points for every Kick Return TD",63
+"97","QB","Punt Return TD","TD",6,"Returning","6 points for every Punt Return TD",67
+"98","RB","Punt Return TD","TD",6,"Returning","6 points for every Punt Return TD",67
+"99","WR","Punt Return TD","TD",6,"Returning","6 points for every Punt Return TD",67
+"100","TE","Punt Return TD","TD",6,"Returning","6 points for every Punt Return TD",67
+"101","K","Punt Return TD","TD",6,"Returning","6 points for every Punt Return TD",67
+"102","D/ST","Punt Return TD","TD",6,"Returning","6 points for every Punt Return TD",67
+"103","QB","Solo Tackle","Solo",1,"Defense","1 point for every Solo Tackle",83
+"104","RB","Solo Tackle","Solo",1,"Defense","1 point for every Solo Tackle",83
+"105","WR","Solo Tackle","Solo",1,"Defense","1 point for every Solo Tackle",83
+"106","TE","Solo Tackle","Solo",1,"Defense","1 point for every Solo Tackle",83
+"107","K","Solo Tackle","Solo",1,"Defense","1 point for every Solo Tackle",83
+"108","QB","Interception","INT",2,"Defense","2 points for every Interception",84
+"109","RB","Interception","INT",2,"Defense","2 points for every Interception",84
+"110","WR","Interception","INT",2,"Defense","2 points for every Interception",84
+"111","TE","Interception","INT",2,"Defense","2 points for every Interception",84
+"112","K","Interception","INT",2,"Defense","2 points for every Interception",84
+"113","D/ST","Interception","INT",2,"Defense","2 points for every Interception",84
+"114","QB","Sack","Sack",1,"Defense","1 point for every Sack",85
+"115","RB","Sack","Sack",1,"Defense","1 point for every Sack",85
+"116","WR","Sack","Sack",1,"Defense","1 point for every Sack",85
+"117","TE","Sack","Sack",1,"Defense","1 point for every Sack",85
+"118","K","Sack","Sack",1,"Defense","1 point for every Sack",85
+"119","D/ST","Sack","Sack",1,"Defense","1 point for every Sack",85
+"120","QB","Fumble Forced","FF",1,"Defense","1 point for every Fumble Forced",86
+"121","RB","Fumble Forced","FF",1,"Defense","1 point for every Fumble Forced",86
+"122","WR","Fumble Forced","FF",1,"Defense","1 point for every Fumble Forced",86
+"123","TE","Fumble Forced","FF",1,"Defense","1 point for every Fumble Forced",86
+"124","K","Fumble Forced","FF",1,"Defense","1 point for every Fumble Forced",86
+"125","D/ST","Fumble Forced","FF",1,"Defense","1 point for every Fumble Forced",86
+"126","D/ST","Fumble Recovered","FR",1,"Defense","1 point for every Fumble Recovered",87
+"127","QB","Safety","Saf",2,"Defense","2 points for every Safety",88
+"128","RB","Safety","Saf",2,"Defense","2 points for every Safety",88
+"129","WR","Safety","Saf",2,"Defense","2 points for every Safety",88
+"130","TE","Safety","Saf",2,"Defense","2 points for every Safety",88
+"131","K","Safety","Saf",2,"Defense","2 points for every Safety",88
+"132","D/ST","Safety","Saf",2,"Defense","2 points for every Safety",88
+"133","QB","Defensive TD","TD",6,"Defense","6 points for every Defensive TD",89
+"134","RB","Defensive TD","TD",6,"Defense","6 points for every Defensive TD",89
+"135","WR","Defensive TD","TD",6,"Defense","6 points for every Defensive TD",89
+"136","TE","Defensive TD","TD",6,"Defense","6 points for every Defensive TD",89
+"137","K","Defensive TD","TD",6,"Defense","6 points for every Defensive TD",89
+"138","D/ST","Defensive TD","TD",6,"Defense","6 points for every Defensive TD",89
+"139","QB","XP Blocked","XB",2,"Defense","2 points for every XP Blocked",91
+"140","RB","XP Blocked","XB",2,"Defense","2 points for every XP Blocked",91
+"141","WR","XP Blocked","XB",2,"Defense","2 points for every XP Blocked",91
+"142","TE","XP Blocked","XB",2,"Defense","2 points for every XP Blocked",91
+"143","K","XP Blocked","XB",2,"Defense","2 points for every XP Blocked",91
+"144","D/ST","XP Blocked","XB",2,"Defense","2 points for every XP Blocked",91
+"145","QB","FG Blocked","FB",2,"Defense","2 points for every FG Blocked",92
+"146","RB","FG Blocked","FB",2,"Defense","2 points for every FG Blocked",92
+"147","WR","FG Blocked","FB",2,"Defense","2 points for every FG Blocked",92
+"148","TE","FG Blocked","FB",2,"Defense","2 points for every FG Blocked",92
+"149","K","FG Blocked","FB",2,"Defense","2 points for every FG Blocked",92
+"150","D/ST","FG Blocked","FB",2,"Defense","2 points for every FG Blocked",92
+"151","QB","Punt Blocked","PB",2,"Defense","2 points for every Punt Blocked",93
+"152","RB","Punt Blocked","PB",2,"Defense","2 points for every Punt Blocked",93
+"153","WR","Punt Blocked","PB",2,"Defense","2 points for every Punt Blocked",93
+"154","TE","Punt Blocked","PB",2,"Defense","2 points for every Punt Blocked",93
+"155","K","Punt Blocked","PB",2,"Defense","2 points for every Punt Blocked",93
+"156","D/ST","Punt Blocked","PB",2,"Defense","2 points for every Punt Blocked",93
+"157","QB","Conversion Return","CR",2,"Defense","2 points for every Conversion Return",125
+"158","RB","Conversion Return","CR",2,"Defense","2 points for every Conversion Return",125
+"159","WR","Conversion Return","CR",2,"Defense","2 points for every Conversion Return",125
+"160","TE","Conversion Return","CR",2,"Defense","2 points for every Conversion Return",125
+"161","K","Conversion Return","CR",2,"Defense","2 points for every Conversion Return",125
+"162","D/ST","Conversion Return","CR",2,"Defense","2 points for every Conversion Return",125
+"163","D/ST","Offensive + Special Teams Point Allowed","O/SP-Pts",10,"Defense","10 extra points when total Offensive + Special Teams Points Allowed is less than or equal to 0",116
+"164","D/ST","Offensive + Special Teams Point Allowed","O/SP-Pts",7,"Defense","7 extra points when total Offensive + Special Teams Points Allowed is between 1 and 6 (inclusive)",116
+"165","D/ST","Offensive + Special Teams Point Allowed","O/SP-Pts",4,"Defense","4 extra points when total Offensive + Special Teams Points Allowed is between 7 and 13 (inclusive)",116
+"166","D/ST","Offensive + Special Teams Point Allowed","O/SP-Pts",2,"Defense","2 extra points when total Offensive + Special Teams Points Allowed is between 14 and 20 (inclusive)",116
+"167","D/ST","Offensive + Special Teams Point Allowed","O/SP-Pts",-1,"Defense","-1 extra point when total Offensive + Special Teams Points Allowed is between 24 and 27 (inclusive)",116
+"168","D/ST","Offensive + Special Teams Point Allowed","O/SP-Pts",-3,"Defense","-3 extra points when total Offensive + Special Teams Points Allowed is between 28 and 34 (inclusive)",116
+"169","D/ST","Offensive + Special Teams Point Allowed","O/SP-Pts",-5,"Defense","-5 extra points when total Offensive + Special Teams Points Allowed is between 35 and 45 (inclusive)",116
+"170","D/ST","Offensive + Special Teams Point Allowed","O/SP-Pts",-7,"Defense","-7 extra points when total Offensive + Special Teams Points Allowed is greater than or equal to 46",116
+"171","D/ST","Net Yard Allowed","Yd",10,"Defense","10 extra points when total Net Yards Allowed is less than or equal to 0",95
+"172","D/ST","Net Yard Allowed","Yd",5,"Defense","5 extra points when total Net Yards Allowed is between 1 and 99 (inclusive)",95
+"173","D/ST","Net Yard Allowed","Yd",4,"Defense","4 extra points when total Net Yards Allowed is between 100 and 199 (inclusive)",95
+"174","D/ST","Net Yard Allowed","Yd",3,"Defense","3 extra points when total Net Yards Allowed is between 200 and 250 (inclusive)",95
+"175","D/ST","Net Yard Allowed","Yd",1,"Defense","1 extra point when total Net Yards Allowed is between 251 and 299 (inclusive)",95
